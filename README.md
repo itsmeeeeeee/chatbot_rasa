@@ -51,5 +51,5 @@ Rasa-Chatbot verwendet den DIET Classifier für die Intent-Erkennung und Entitä
 
 ## Referenzen
 
-1. Kaggle Disease Symptom Description Dataset: [Kaggle Disease Symptom Description Dataset](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=symptom_Description.csv)
-2. Towards Data Science Artikel über Rasa 2.0: [Towards Data Science Artikel über Rasa 2.0](https://towardsdatascience.com/chatbots-made-easier-with-rasa-2-0-b999323cdde)
+1. Kaggle Disease Symptom Description Dataset: [src](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=symptom_Description.csv)
+2. Towards Data Science Artikel über Rasa 2.0: [src](https://towardsdatascience.com/chatbots-made-easier-with-rasa-2-0-b999323cdde)
