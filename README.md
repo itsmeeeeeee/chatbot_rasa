@@ -20,10 +20,7 @@ Dieser Chatbot wurde mithilfe von Rasa implementiert und mit einem spezialisiert
 Die Domain-Datei wurde erweitert, um die Krankheitsentitäten und die benutzerdefinierte Aktion `action_provide_disease_info` zu umfassen.
 
 ### Endpoints.yml
-Die `endpoints.yml`-Datei wurde konfiguriert, um die Verbindung zum Action-Server herzustellen. Sie enthält die Zeile:
-
-action_endpoint:
-  url: "http://localhost:5055/webhook"
+Die `endpoints.yml`-Datei wurde konfiguriert, um die Verbindung zum Action-Server herzustellen.
 
 ## Ausführung des bereitgestellten Chatbots
 
