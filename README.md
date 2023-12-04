@@ -206,9 +206,7 @@ zipp==3.17.0
 ## Output: hier wird der Output von Chat gespräch dargestellt
 <img width="863" alt="Screenshot 2023-12-04 132323" src="https://github.com/itsmeeeeeee/chatbot_rasa/assets/96257594/568747d0-70f5-403f-b18e-7dd6df17fdf0">
 
+## Referenzen
 
-## Referenzen
-## Referenzen
 1. Kaggle Disease Symptom Description Dataset: [Kaggle Disease Symptom Description Dataset](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=symptom_Description.csv)
 2. Towards Data Science Artikel über Rasa 2.0: [Towards Data Science Artikel über Rasa 2.0](https://towardsdatascience.com/chatbots-made-easier-with-rasa-2-0-b999323cdde)
-
