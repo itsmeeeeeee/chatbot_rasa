@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Can you tell me about diseases?",
+    "intent": "ask_general_disease_info",
+    "intent_prediction": {
+      "name": "ask_disease",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "Information about diseases",
+    "intent": "ask_general_disease_info",
+    "intent_prediction": {
+      "name": "ask_disease",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "disease",
+    "intent": "ask_general_disease_info",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9137797951698303
+    }
+  }
+]

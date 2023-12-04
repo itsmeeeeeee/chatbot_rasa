@@ -1,0 +1,6 @@
+[
+  {
+    "name": "disease",
+    "pattern": "(\\bDrug\\ Reaction\\b|\\bMalaria\\b|\\bAllergy\\b|\\bHypothyroidism\\b|\\bPsoriasis\\b|\\bGERD\\b|\\bChronic\\ cholestasis\\b|\\bhepatitis\\ A\\b|\\bOsteoarthristis\\b|\\b\\(vertigo\\)\\ Paroymsal\\ \\ Positional\\ Vertigo\\b|\\bHypoglycemia\\b|\\bAcne\\b|\\bDiabetes\\b|\\bImpetigo\\b|\\bHypertension\\b|\\bPeptic\\ ulcer\\ diseae\\b|\\bDimorphic\\ hemorrhoids\\(piles\\)\\b|\\bCommon\\ Cold\\b|\\bChicken\\ pox\\b|\\bCervical\\ spondylosis\\b|\\bHyperthyroidism\\b|\\bUrinary\\ tract\\ infection\\b|\\bVaricose\\ veins\\b|\\bAIDS\\b|\\bParalysis\\ \\(brain\\ hemorrhage\\)\\b|\\bTyphoid\\b|\\bHepatitis\\ B\\b|\\bFungal\\ infection\\b|\\bHepatitis\\ C\\b|\\bMigraine\\b|\\bBronchial\\ Asthma\\b|\\bAlcoholic\\ hepatitis\\b|\\bJaundice\\b|\\bHepatitis\\ E\\b|\\bDengue\\b|\\bHepatitis\\ D\\b|\\bHeart\\ attack\\b|\\bPneumonia\\b|\\bArthritis\\b|\\bGastroenteritis\\b|\\bTuberculosis\\b)"
+  }
+]

@@ -1,0 +1,49 @@
+version: "3.1"
+
+stories:
+- story: basic ask disease story
+  steps:
+  - intent: ask_disease
+  - action: action_provide_disease_info
+
+- story: ask disease with follow-up
+  steps:
+  - intent: ask_disease
+  - action: action_provide_disease_info
+  - intent: affirm
+  - action: utter_more_info
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: general disease info query
+  steps:
+  - intent: ask_general_disease_info
+  - action: utter_ask_which_disease
+

@@ -1,0 +1,187 @@
+
+version: "3.1"
+
+nlu:
+- intent: ask_disease
+  examples: |
+    - Can you tell me about [Drug Reaction](disease)?
+    - I need information about [Malaria](disease).
+    - Tell me about [Allergy](disease).
+    - What do I need to know about [Hypothyroidism](disease)?
+    - Can you tell me about [Psoriasis](disease)?
+    - What is [GERD](disease)?
+    - What do I need to know about [Chronic cholestasis](disease)?
+    - Can you tell me about [hepatitis A](disease)?
+    - I need information about [Osteoarthristis](disease).
+    - Can you tell me about [(vertigo) Paroymsal Positional Vertigo](disease)?
+    - Can you tell me about [Hypoglycemia](disease)?
+    - Can you tell me about [Acne](disease)?
+    - Can you tell me about [Diabetes](disease)?
+    - I need information about [Impetigo](disease).ease)?
+    - What is [Hypertension](disease)?
+    - What is [Peptic ulcer diseae](disease)?
+    - Tell me about [Dimorphic hemorrhoids(piles)](disease).
+    - Can you tell me about [Common Cold](disease)?
+    - What is [Chicken pox](disease)?
+    - What is [Cervical spondylosis](disease)?
+    - Tell me about [Hyperthyroidism](disease).
+    - Can you tell me about [Urinary tract infection](disease)?
+    - What do I need to know about [Varicose veins](disease)?
+    - I need information about [AIDS](disease).
+    - Can you tell me about [Paralysis (brain hemorrhage)](disease)?
+    - What do I need to know about [Typhoid](disease)?
+    - I need information about [Hepatitis B](disease).
+    - Can you tell me about [Fungal infection](disease)?
+    - Can you tell me about [Hepatitis C](disease)?
+    - Can you tell me about [Migraine](disease)?
+    - I need information about [Bronchial Asthma](disease).
+    - What is [Alcoholic hepatitis](disease)?
+    - What do I need to know about [Jaundice](disease)?
+    - Can you tell me about [Hepatitis E](disease)?
+    - I need information about [Dengue](disease).
+    - I need information about [Hepatitis D](disease).
+    - Tell me about [Heart attack](disease).
+    - What is [Pneumonia](disease)?
+    - Tell me about [Arthritis](disease).
+    - What is [Gastroenteritis](disease)?
+    - Tell me about [Tuberculosis](disease).
+
+- lookup: disease
+  examples: |
+    - Drug Reaction
+    - Malaria
+    - Allergy
+    - Hypothyroidism
+    - Psoriasis
+    - GERD
+    - Chronic cholestasis
+    - hepatitis A
+    - Osteoarthristis
+    - (vertigo) Paroymsal Positional Vertigo
+    - Hypoglycemia
+    - Acne
+    - Diabetes
+    - Impetigo
+    - Hypertension
+    - Peptic ulcer diseae
+    - Dimorphic hemorrhoids(piles)
+    - Common Cold
+    - Chicken pox
+    - Cervical spondylosis
+    - Hyperthyroidism
+    - Urinary tract infection
+    - Varicose veins
+    - AIDS
+    - Paralysis (brain hemorrhage)
+    - Typhoid
+    - Hepatitis B
+    - Fungal infection
+    - Hepatitis C
+    - Migraine
+    - Bronchial Asthma
+    - Alcoholic hepatitis
+    - Jaundice
+    - Hepatitis E
+    - Dengue
+    - Hepatitis D
+    - Heart attack
+    - Pneumonia
+    - Arthritis
+    - Gastroenteritis
+    - Tuberculosis
+
+- intent: ask_general_disease_info
+  examples: |
+    - Can you tell me about diseases?
+    - Information about diseases
+    - disease
+
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

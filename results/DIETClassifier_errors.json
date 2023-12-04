@@ -1,0 +1,78 @@
+[
+  {
+    "text": "Can you tell me about (vertigo) Paroymsal Positional Vertigo?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 60,
+        "value": "(vertigo) Paroymsal Positional Vertigo",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I need information about Impetigo.ease)?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "Impetigo",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tell me about Dimorphic hemorrhoids(piles).",
+    "entities": [
+      {
+        "start": 14,
+        "end": 42,
+        "value": "Dimorphic hemorrhoids(piles)",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Can you tell me about Paralysis (brain hemorrhage)?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 50,
+        "value": "Paralysis (brain hemorrhage)",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Can you tell me about diseases?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.8476424813270569,
+        "value": "diseases",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Information about diseases",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.6751046776771545,
+        "value": "diseases",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

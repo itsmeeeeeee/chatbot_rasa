@@ -1,0 +1,6 @@
+[
+  {
+    "name": "disease",
+    "pattern": "(\\bDrug\\ Reaction\\b|\\bMalaria\\b|\\bAllergy\\b|\\bHypothyroidism\\b|\\b\\.\\.\\.\\ \\[and\\ so\\ on\\ for\\ each\\ disease\\]\\b)"
+  }
+]
