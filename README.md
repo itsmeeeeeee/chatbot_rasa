@@ -202,7 +202,9 @@ wsproto==1.2.0
 yarl==1.9.3
 zipp==3.17.0
 
-## Output: hier wird der Output von Chat gespräch dargestellt
+## Output: 
+Im Folgenden sehen Sie ein Beispiel des Outputs dieses Chatbot-Gesprächs. Diese Darstellung zeigt, wie der Chatbot auf Benutzeranfragen mit Informationen zu medizinischen Diagnosen antwortet:
+
 <img width="863" alt="Screenshot 2023-12-04 132323" src="https://github.com/itsmeeeeeee/chatbot_rasa/assets/96257594/568747d0-70f5-403f-b18e-7dd6df17fdf0">
 
 ## Referenzen
