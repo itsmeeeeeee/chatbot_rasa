@@ -1,7 +1,7 @@
 # Rasa Chatbot für medizinische Diagnosen
 
 ## Überblick
-Dieser Chatbot wurde mithilfe von Rasa implementiert und mit einem spezialisierten Datensatz für medizinische Diagnosen erweitert【1†source】. Der Datensatz, der von Kaggle bezogen wurde, enthält 40 Diagnosen mit entsprechenden Erklärungen Kaggle Disease Symptom Description Dataset: https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=symptom_Description.csv
+> Dieser Chatbot wurde mithilfe von Rasa implementiert und mit einem spezialisierten Datensatz für medizinische Diagnosen erweitert&#8203;``【oaicite:0】``&#8203;. Der Datensatz, der von Kaggle bezogen wurde, enthält 40 Diagnosen mit entsprechenden Erklärungen. [Kaggle Disease Symptom Description Dataset](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=symptom_Description.csv)
 
 
 ## Wichtige Dateien
@@ -208,5 +208,7 @@ zipp==3.17.0
 
 
 ## Referenzen
-1. Kaggle Disease Symptom Description Dataset: [Kaggle Link](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=symptom_Description.csv)
-https://towardsdatascience.com/chatbots-made-easier-with-rasa-2-0-b999323cdde
+## Referenzen
+1. Kaggle Disease Symptom Description Dataset: [Kaggle Disease Symptom Description Dataset](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=symptom_Description.csv)
+2. Towards Data Science Artikel über Rasa 2.0: [Towards Data Science Artikel über Rasa 2.0](https://towardsdatascience.com/chatbots-made-easier-with-rasa-2-0-b999323cdde)
+
