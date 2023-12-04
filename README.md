@@ -21,10 +21,9 @@ Die Domain-Datei wurde erweitert, um die Krankheitsentitäten und die benutzerde
 
 ### Endpoints.yml
 Die `endpoints.yml`-Datei wurde konfiguriert, um die Verbindung zum Action-Server herzustellen. Sie enthält die Zeile:
-```
+
 action_endpoint:
   url: "http://localhost:5055/webhook"
-```
 
 ## Ausführung des bereitgestellten Chatbots
 
